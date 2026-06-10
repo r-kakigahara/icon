@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- NIPO Webhook アバター 案C: ポコ (PokoFace.tsx の座標を 3.2 倍スケール / smile #66bb6a) -->
+  <defs>
+    <radialGradient id="body" cx="42%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#1b2c4d"/>
+      <stop offset="55%" stop-color="#11203c"/>
+      <stop offset="100%" stop-color="#0a1424"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7cf95"/>
+      <stop offset="100%" stop-color="#9c7321"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="#0a1424"/>
+  <circle cx="256" cy="256" r="256" fill="url(#body)"/>
+  <ellipse cx="173" cy="154" rx="96" ry="54" fill="rgba(255,255,255,.10)"/>
+  <circle cx="256" cy="256" r="224" fill="none" stroke="rgba(200,170,110,.28)" stroke-width="3"/>
+  <rect x="102" y="115" width="308" height="256" rx="96" fill="#070d18" stroke="#66bb6a" stroke-width="4.5"/>
+  <rect x="102" y="115" width="308" height="256" rx="96" fill="#66bb6a" opacity="0.08"/>
+  <g filter="url(#glow)" fill="none" stroke="#66bb6a" stroke-width="19" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M173 211 Q205 250 237 211"/>
+    <path d="M275 211 Q314 250 339 211"/>
+    <path d="M211 269 Q256 304 301 269"/>
+  </g>
+  <circle cx="256" cy="256" r="252" fill="none" stroke="url(#rim)" stroke-width="8"/>
+</svg>

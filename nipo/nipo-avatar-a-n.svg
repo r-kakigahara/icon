@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- NIPO Webhook アバター 案A: ブランド N マーク (Editorial Light / Zinc-900 + 白N) -->
+  <rect width="512" height="512" fill="#18181b"/>
+  <g fill="#ffffff">
+    <rect x="158" y="148" width="58" height="216"/>
+    <rect x="296" y="148" width="58" height="216"/>
+    <polygon points="158,148 230,148 354,364 282,364"/>
+  </g>
+</svg>

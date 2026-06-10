@@ -1,0 +1,34 @@
+# icon
+
+社内アプリで使うアイコン・画像の公開置き場。
+Google Chat Webhook のアバターなど、**インターネット公開 URL が必要な画像**をここで管理する。
+
+## URL の使い方
+
+ファイルは raw URL で直接参照できる:
+
+```
+https://raw.githubusercontent.com/r-kakigahara/icon/main/<フォルダ>/<ファイル名>
+```
+
+例: `https://raw.githubusercontent.com/r-kakigahara/icon/main/nipo/nipo-avatar-c-poko.png`
+
+## 運用ルール
+
+- アプリ・用途ごとにフォルダを切る (`nipo/` など)
+- **画像を差し替えるときはファイル名を変える** (Google 側にキャッシュされるため、同名上書きでは反映されないことがある)
+- `.png` が配信用 (アバターは 512×512 正方形・円形トリミング前提)、`.svg` は編集用マスター
+- 公開リポジトリなので、社外秘情報を含む画像は置かない
+
+## 収録一覧
+
+### nipo/ — NIPO (製造2部 日報システム)
+
+Google Chat「NIPO からのお知らせ」Webhook アバター候補。円形クロップ・36px 表示前提で設計。
+
+| ファイル | 内容 |
+|---|---|
+| `nipo-avatar-a-n.png` | 案A: ブランド N マーク (Editorial Light / Zinc-900 + 白N) |
+| `nipo-avatar-b-n-dot.png` | 案B: N マーク + 通知ドット (#06b6d4) |
+| `nipo-avatar-c-poko.png` | 案C: サポートドローン「ポコ」(アプリ内 PokoFace 準拠) |
+| `nipo-avatar-d-face.png` | 案D: ポコ顔スクリーンのクローズアップ |
