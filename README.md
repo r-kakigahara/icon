@@ -53,3 +53,14 @@ Google Chat「出荷管理ボード」Webhook アバター候補。円形クロ�
 | `shukka-avatar-b-truck.png` | 案B: 白いトラックだけ |
 | `shukka-avatar-c-shukka.png` | 案C: 「出荷」2文字 (Noto Sans JP Black をアウトライン化)。材料管理の案A と形が似る |
 | `shukka-avatar-d-mieta.png` | 案D: アプリアイコンと同じ MIETA+ シンボル。出荷の意味は形から読めない |
+
+### chokusetsu-shogo/ — 監視アラート君 (直接出荷照合)
+
+Google Chat「監視アラート君（直接出荷照合）」Webhook アバター候補。円形クロップ・36px 表示前提で設計。他のアイコンが青・水色・紺なので、警告色の黄と赤で一目で区別できるようにしている。文字は Noto Sans JP Black (OFL) をアウトライン化。
+
+| ファイル | 内容 |
+|---|---|
+| `shogo-avatar-a-siren-shogo.png` | 案A (推奨): 目のある赤色回転灯 + 「照合」。36px でも回転灯と文字が読める |
+| `shogo-avatar-b-siren.png` | 案B: 目のある赤色回転灯だけ。最も目立つが、照合の意味は形から読めない |
+| `shogo-avatar-c-shogo-alert.png` | 案C: 赤地に「照合」+ 警告バッジ。材料管理の案A と構成が似る |
+| `shogo-avatar-d-barcode-alert.png` | 案D: 警告三角 + バーコード。文字なし。36px ではバーコードが細かくなる |
