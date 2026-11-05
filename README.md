@@ -42,3 +42,14 @@ Google Chat「材料管理システム」Webhook アバター候補。円形ク�
 | `zairyou-avatar-a-zairyou.png` | 案A (推奨): 「材料」2文字。24px でも読める |
 | `zairyou-avatar-b-bag.png` | 案B: 材料袋 + 「材」。袋の形が分かるのは 48px 以上 |
 | `zairyou-avatar-c-zai.png` | 案C: 「材」1文字 |
+
+### shukka/ — 出荷管理ボード (生産管理部)
+
+Google Chat「出荷管理ボード」Webhook アバター候補。円形クロップ・36px 表示前提で設計。背景はアプリアイコンと同じ紺〜青のグラデーション (`#1e3a5f` → `#1a56db`)。
+
+| ファイル | 内容 |
+|---|---|
+| `shukka-avatar-a-truck-board.png` | 案A (推奨): MIETA+ の4枚タイルを荷台に積んだトラック。24px でもトラックと分かる |
+| `shukka-avatar-b-truck.png` | 案B: 白いトラックだけ |
+| `shukka-avatar-c-shukka.png` | 案C: 「出荷」2文字 (Noto Sans JP Black をアウトライン化)。材料管理の案A と形が似る |
+| `shukka-avatar-d-mieta.png` | 案D: アプリアイコンと同じ MIETA+ シンボル。出荷の意味は形から読めない |
