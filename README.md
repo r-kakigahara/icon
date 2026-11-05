@@ -32,3 +32,13 @@ Google Chat「NIPO からのお知らせ」Webhook アバター候補。円形�
 | `nipo-avatar-b-n-dot.png` | 案B: N マーク + 通知ドット (#06b6d4) |
 | `nipo-avatar-c-poko.png` | 案C: サポートドローン「ポコ」(アプリ内 PokoFace 準拠) |
 | `nipo-avatar-d-face.png` | 案D: ポコ顔スクリーンのクローズアップ |
+
+### zairyou/ — 材料管理システム (製造1部)
+
+Google Chat「材料管理システム」Webhook アバター候補。円形クロップ・36px 表示前提で設計。背景色はアプリのアクセント色 `#0E7DA8`。文字は Noto Sans JP Black (OFL) をアウトライン化しており、`.svg` の表示にフォントは不要。
+
+| ファイル | 内容 |
+|---|---|
+| `zairyou-avatar-a-zairyou.png` | 案A (推奨): 「材料」2文字。24px でも読める |
+| `zairyou-avatar-b-bag.png` | 案B: 材料袋 + 「材」。袋の形が分かるのは 48px 以上 |
+| `zairyou-avatar-c-zai.png` | 案C: 「材」1文字 |
