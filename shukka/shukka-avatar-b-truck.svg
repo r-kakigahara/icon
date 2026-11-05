@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- 出荷管理ボード Webhook アバター 案B: 白いトラック（地はアプリアイコンと同じ紺〜青） -->
+  <defs><linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="512" y2="512"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#1a56db"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="#ffffff">
+    <rect x="72" y="134" width="226" height="196" rx="18"/>
+    <path d="M310 186 H380 a18 18 0 0 1 14 6.6 L436 244 a18 18 0 0 1 4 11.4 V312 a18 18 0 0 1 -18 18 H310 Z"/>
+  </g>
+  <path d="M334 210 H376 L412 254 H334 Z" fill="url(#bg)" stroke="url(#bg)" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="146" cy="334" r="52" fill="url(#bg)"/>
+  <circle cx="366" cy="334" r="52" fill="url(#bg)"/>
+  <circle cx="146" cy="334" r="38" fill="#ffffff"/>
+  <circle cx="366" cy="334" r="38" fill="#ffffff"/>
+  <circle cx="146" cy="334" r="13" fill="url(#bg)"/>
+  <circle cx="366" cy="334" r="13" fill="url(#bg)"/>
+</svg>
